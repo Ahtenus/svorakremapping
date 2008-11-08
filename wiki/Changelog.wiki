@@ -1,4 +1,2 @@
-#Changelog
-
 ===0.54===
 Lade till: Strappa om CapsLock till Backspace.
