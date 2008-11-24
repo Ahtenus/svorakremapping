@@ -1,4 +1,5 @@
 ===0.54.1===
-Skrev om menyerna så att de är lättare att förstå. Använde nyaste kompilatorn. Den gamla kunde framkalla falska virusvaningar. 
+Skrev om menyerna så att de är lättare att förstå.
+Använde nyaste kompilatorn. Den gamla kunde framkalla falska virusvaningar. 
 ===0.54===
 Lade till: Strappa om CapsLock till Backspace.
