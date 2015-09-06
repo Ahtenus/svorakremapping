@@ -2,4 +2,4 @@ Svorak remapping är som ett lager mellan Windows och tangentbordet som översä
 
 För mer info besök: http://viktorbarsk.se/svorakremapping/
 
-Denna repository är en export från Google Code som användes tidigare.
+Denna repository är en export från Google Code.
