@@ -1,0 +1,348 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+@font-face { /* Quicksand är ett gratis font av Andrew Paglinawan och finns att hämat här: http://www.typophile.com/node/50437 */
+font-family:
+    'Quicksand';
+    src:
+    url('Quicksand.otf') format('opentype');
+}
+@font-face {font-family:
+    'Calibri-dl';
+    src:
+    url('calibri.ttf') format('truetype');
+}
+
+body {
+    background-color: #6c821c;
+    color: #282828;
+    background-image: url(images/bg_top.png);
+    background-position: top;
+    background-repeat: repeat-x;
+    line-height:130%;
+    font-size: 110%;
+    font-family: Calibri, Calibri-dl, Tahoma, Helvetica, sans-serif;
+}
+
+#outer_container {
+    width: 669px;
+    margin: 0 auto;
+}
+
+#logo_top {
+    background-image: url(images/logo_top_rattnyans-franorg.png);
+    width: 669px;
+    height: 252px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.stripNav {
+    margin-top: -65px;
+    width: 699px;
+}
+
+.stripNav ul {
+    height: 65px;
+    z-index: 2;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+    font-size: 0px;
+}
+
+.stripNav li {
+    float: left;
+    margin: 0px 3px;
+}
+
+.tab1 a {
+    background: url(images/sprite_knapp.png);
+    float: left;
+    z-index: 2;
+    text-shadow: none !important;
+}
+
+.tab2 a {
+    background: url(images/sprite_knapp.png);
+    float: left;
+    z-index: 2;
+    text-shadow: none !important;
+}
+
+.tab3 a {
+    background: url(images/sprite_knapp.png);
+    float: left;
+    z-index: 2;
+    text-shadow: none !important;
+}
+
+.tab4 a {
+    background: url(images/sprite_knapp.png);
+    float: left;
+    z-index: 2;
+    text-shadow: none !important;
+}
+
+.stripNav a:hover {
+    position: static;
+}
+
+li.tab1 {
+    width: 138px;
+    height: 65px;
+}
+
+.tab1 A {
+    background-position: 0px 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.tab1 A:hover {
+    background-position: 0px -91px;
+    border-bottom: 0 none;
+}
+
+.tab1 a.current {
+    background-position: 0px -91px;
+    border-bottom: 0 none;
+}
+
+.tab2 {
+    width: 188px;
+    height: 65px;
+}
+
+.tab2 A {
+    background-position: -178px 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.tab2 A:hover {
+    background-position: -178px -91px;
+    border-bottom: 0 none;
+}
+
+.tab2 a.current {
+    background-position: -178px -91px;
+    border-bottom: 0 none;
+}
+
+.tab3 {
+    width: 141px;
+    height: 65px;
+}
+
+.tab3 A {
+    background-position: -410px 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.tab3 A:hover {
+    background-position: -410px -91px;
+    border-bottom: 0 none;
+}
+
+.tab3 a.current {
+    background-position: -410px -91px;
+    border-bottom: 0 none;
+}
+
+.tab4 {
+    width: 178px;
+    height: 65px;
+}
+
+.tab4 A {
+    background-position: -587px 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.tab4 A:hover {
+    background-position: -587px -91px;
+    border-bottom: 0 none;
+}
+
+.tab4 a.current {
+    background-position: -587px -91px;
+    border-bottom: 0 none;
+}
+
+.kursiv {
+   font-size: 0.8em;
+}
+
+p {
+    margin: 0 0em 1em 0em;
+}
+
+p:first-child, h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child {
+    margin-top: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+    font-family: Quicksand, Calibri, Calibri-dl, Tahoma, Helvetica, sans-serif;
+    color: #ff6600;
+    line-height:1.2;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+h3 {
+	border-bottom:1px gray solid;
+	color:inherit;
+	text-shadow:none;
+	margin: 1em 0 0.5em;
+}
+
+li {
+    margin: 0.5em auto 0.5em 1em;
+}
+
+a {
+    color: #0040b6;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+
+ a:hover {
+ text-decoration: underline;
+ /*text-shadow: rgba(0, 0, 0, 0.5) 0 0 2px;*/
+ }
+ 
+a:active {
+    outline: none;
+}
+
+a:focus {
+    -moz-outline-style: none;
+	outline:none;
+}
+a.awesome.trefemtio {
+	padding-right:0px;
+	width:360px;
+}
+a.awesome {
+    background: #222222 url(images/radian-50.png) repeat-x;
+    display: inline-block;
+    padding: 10px 15px 11px;
+    color: #fff;
+    text-decoration: none;
+    /*font-weight: bold;*/
+    /*line-height: 1;*/
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    position: relative;
+    cursor: pointer;
+	font:11px/1.1 verdana , sans-serif;
+}
+a.awesome:hover {
+	background-color:#121212;
+}
+a.awesome.stor{
+	padding-left:0;
+	margin-bottom:2em;
+	line-height:2.2;
+	padding-bottom:5px;
+}
+a.awesome span.rubrik{
+	font-size:23px;
+	line-height:1;
+	font-weight:bold;
+}
+a.stor img{
+	float:left;
+	padding:0 5px;
+}
+a.liten img{
+	float:left;
+	margin:-15px 0 0 -20px;
+}
+a.awesome.liten{
+	height:1em;
+	padding:7px 15px 8px 0;
+	margin:0px 10px 20px;
+	font-size: 12px;
+}
+
+.csw {
+    width: 100%;
+    height: 460px;
+    background-color: #e2e2b2;
+    overflow: scroll;
+}
+
+.csw .loading {
+    margin: 200px 0 300px 0;
+    text-align: center;
+}
+
+.stripViewer {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #f3f2bb;
+    border-top: 0px solid;
+    margin: auto;
+    width: 661px;
+    clear: both;
+    background-color: #e2e2b2;
+    z-index: 1;
+}
+
+.stripViewer .panelContainer {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+}
+
+.stripViewer .panelContainer .panel {
+    float: left;
+    height: 100%;
+    position: relative;
+    width: 661px;
+}
+
+.stripViewer .panelContainer .panel .wrapper {
+    padding: 10px;
+    width: 541px;
+    height: 100%;
+    padding: 60px 40px;
+    margin: 0em auto auto auto;
+}
+
+#twitter {
+    height: 48px;
+    width: 240px;
+    float: right;
+}
+
+.FlattrButton {
+	float: right;
+}
